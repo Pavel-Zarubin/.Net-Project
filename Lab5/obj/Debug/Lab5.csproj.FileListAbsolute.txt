@@ -1,0 +1,9 @@
+C:\Users\Admin\Documents\PROJECTS\Lab5\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\PROJECTS\Lab5\Lab5\obj\Debug\Lab5.CorrespondentForm.resources
+C:\Users\Admin\Documents\PROJECTS\Lab5\Lab5\obj\Debug\Lab5.DocumentForm.resources
+C:\Users\Admin\Documents\PROJECTS\Lab5\Lab5\obj\Debug\Lab5.EventForm.resources
+C:\Users\Admin\Documents\PROJECTS\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+C:\Users\Admin\Documents\PROJECTS\Lab5\Lab5\obj\Debug\Lab5.ResponsibleForExecutionForm.resources
+C:\Users\Admin\Documents\PROJECTS\Lab5\Lab5\obj\Debug\Lab5.UserForm.resources
+C:\Users\Admin\Documents\PROJECTS\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\PROJECTS\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache

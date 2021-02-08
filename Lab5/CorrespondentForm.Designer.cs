@@ -31,43 +31,43 @@ namespace Lab5
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.fioC = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.positionC = new System.Windows.Forms.TextBox();
+            this.tvCorrespondent = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.subdivision_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.position = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bDelete = new System.Windows.Forms.Button();
+            this.bEdit = new System.Windows.Forms.Button();
+            this.bNew = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.subdivision_nameC = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.idC = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tvCorrespondent)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.idC)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.fioC);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.positionC);
+            this.panel1.Controls.Add(this.tvCorrespondent);
+            this.panel1.Controls.Add(this.bDelete);
+            this.panel1.Controls.Add(this.bEdit);
+            this.panel1.Controls.Add(this.bNew);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.subdivision_nameC);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.numericUpDown1);
+            this.panel1.Controls.Add(this.idC);
             this.panel1.Location = new System.Drawing.Point(-3, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(804, 451);
@@ -85,12 +85,12 @@ namespace Lab5
             this.label5.TabIndex = 51;
             this.label5.Text = "fio";
             // 
-            // textBox3
+            // fioC
             // 
-            this.textBox3.Location = new System.Drawing.Point(638, 192);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(120, 20);
-            this.textBox3.TabIndex = 50;
+            this.fioC.Location = new System.Drawing.Point(638, 192);
+            this.fioC.Name = "fioC";
+            this.fioC.Size = new System.Drawing.Size(120, 20);
+            this.fioC.TabIndex = 50;
             // 
             // label4
             // 
@@ -103,25 +103,25 @@ namespace Lab5
             this.label4.TabIndex = 49;
             this.label4.Text = "position";
             // 
-            // textBox2
+            // positionC
             // 
-            this.textBox2.Location = new System.Drawing.Point(638, 156);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(120, 20);
-            this.textBox2.TabIndex = 48;
+            this.positionC.Location = new System.Drawing.Point(638, 156);
+            this.positionC.Name = "positionC";
+            this.positionC.Size = new System.Drawing.Size(120, 20);
+            this.positionC.TabIndex = 48;
             // 
-            // dataGridView1
+            // tvCorrespondent
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.tvCorrespondent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tvCorrespondent.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.subdivision_name,
             this.position,
             this.fio});
-            this.dataGridView1.Location = new System.Drawing.Point(15, 18);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(449, 401);
-            this.dataGridView1.TabIndex = 47;
+            this.tvCorrespondent.Location = new System.Drawing.Point(15, 18);
+            this.tvCorrespondent.Name = "tvCorrespondent";
+            this.tvCorrespondent.Size = new System.Drawing.Size(449, 401);
+            this.tvCorrespondent.TabIndex = 47;
             // 
             // id
             // 
@@ -143,32 +143,32 @@ namespace Lab5
             this.fio.HeaderText = "fio";
             this.fio.Name = "fio";
             // 
-            // button3
+            // bDelete
             // 
-            this.button3.Location = new System.Drawing.Point(706, 396);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 46;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = true;
+            this.bDelete.Location = new System.Drawing.Point(706, 396);
+            this.bDelete.Name = "bDelete";
+            this.bDelete.Size = new System.Drawing.Size(75, 23);
+            this.bDelete.TabIndex = 46;
+            this.bDelete.Text = "Delete";
+            this.bDelete.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // bEdit
             // 
-            this.button2.Location = new System.Drawing.Point(599, 396);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 45;
-            this.button2.Text = "Edit";
-            this.button2.UseVisualStyleBackColor = true;
+            this.bEdit.Location = new System.Drawing.Point(599, 396);
+            this.bEdit.Name = "bEdit";
+            this.bEdit.Size = new System.Drawing.Size(75, 23);
+            this.bEdit.TabIndex = 45;
+            this.bEdit.Text = "Edit";
+            this.bEdit.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // bNew
             // 
-            this.button1.Location = new System.Drawing.Point(485, 396);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 44;
-            this.button1.Text = "New";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bNew.Location = new System.Drawing.Point(485, 396);
+            this.bNew.Name = "bNew";
+            this.bNew.Size = new System.Drawing.Size(75, 23);
+            this.bNew.TabIndex = 44;
+            this.bNew.Text = "New";
+            this.bNew.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -181,12 +181,12 @@ namespace Lab5
             this.label3.TabIndex = 43;
             this.label3.Text = "subdivision_name";
             // 
-            // textBox1
+            // subdivision_nameC
             // 
-            this.textBox1.Location = new System.Drawing.Point(638, 116);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 20);
-            this.textBox1.TabIndex = 42;
+            this.subdivision_nameC.Location = new System.Drawing.Point(638, 116);
+            this.subdivision_nameC.Name = "subdivision_nameC";
+            this.subdivision_nameC.Size = new System.Drawing.Size(120, 20);
+            this.subdivision_nameC.TabIndex = 42;
             // 
             // label2
             // 
@@ -210,12 +210,12 @@ namespace Lab5
             this.label1.TabIndex = 40;
             this.label1.Text = "id";
             // 
-            // numericUpDown1
+            // idC
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(638, 74);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 39;
+            this.idC.Location = new System.Drawing.Point(638, 74);
+            this.idC.Name = "idC";
+            this.idC.Size = new System.Drawing.Size(120, 20);
+            this.idC.TabIndex = 39;
             // 
             // CorrespondentForm
             // 
@@ -227,8 +227,8 @@ namespace Lab5
             this.Text = "CorrespondentForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tvCorrespondent)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.idC)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -237,21 +237,21 @@ namespace Lab5
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox fioC;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox positionC;
+        private System.Windows.Forms.DataGridView tvCorrespondent;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn subdivision_name;
         private System.Windows.Forms.DataGridViewTextBoxColumn position;
         private System.Windows.Forms.DataGridViewTextBoxColumn fio;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bDelete;
+        private System.Windows.Forms.Button bEdit;
+        private System.Windows.Forms.Button bNew;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox subdivision_nameC;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown idC;
     }
 }

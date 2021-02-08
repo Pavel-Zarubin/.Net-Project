@@ -30,46 +30,88 @@ namespace Lab5
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.completedE = new System.Windows.Forms.CheckBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.date_of_completion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.completed = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dateOfCompletion = new System.Windows.Forms.DateTimePicker();
+            this.label3 = new System.Windows.Forms.Label();
+            this.nameE = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.idE = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.idE)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel1.Controls.Add(this.checkBox1);
+            this.panel1.Controls.Add(this.completedE);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.dateTimePicker1);
+            this.panel1.Controls.Add(this.dateOfCompletion);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.nameE);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.numericUpDown1);
+            this.panel1.Controls.Add(this.idE);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(804, 452);
             this.panel1.TabIndex = 0;
+            // 
+            // completedE
+            // 
+            this.completedE.Location = new System.Drawing.Point(635, 176);
+            this.completedE.Name = "completedE";
+            this.completedE.Size = new System.Drawing.Size(75, 17);
+            this.completedE.TabIndex = 0;
+            this.completedE.Text = "completed";
+            this.completedE.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.id,
+            this.name,
+            this.date_of_completion,
+            this.completed});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 11);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(443, 401);
+            this.dataGridView1.TabIndex = 34;
+            // 
+            // id
+            // 
+            this.id.HeaderText = "id";
+            this.id.Name = "id";
+            // 
+            // name
+            // 
+            this.name.HeaderText = "name";
+            this.name.Name = "name";
+            // 
+            // date_of_completion
+            // 
+            this.date_of_completion.HeaderText = "date_of_completion";
+            this.date_of_completion.Name = "date_of_completion";
+            // 
+            // completed
+            // 
+            this.completed.HeaderText = "completed";
+            this.completed.Name = "completed";
             // 
             // button3
             // 
@@ -109,12 +151,12 @@ namespace Lab5
             this.label4.TabIndex = 24;
             this.label4.Text = "date_of_completion";
             // 
-            // dateTimePicker1
+            // dateOfCompletion
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(635, 141);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(120, 20);
-            this.dateTimePicker1.TabIndex = 23;
+            this.dateOfCompletion.Location = new System.Drawing.Point(635, 141);
+            this.dateOfCompletion.Name = "dateOfCompletion";
+            this.dateOfCompletion.Size = new System.Drawing.Size(120, 20);
+            this.dateOfCompletion.TabIndex = 23;
             // 
             // label3
             // 
@@ -127,12 +169,12 @@ namespace Lab5
             this.label3.TabIndex = 22;
             this.label3.Text = "name";
             // 
-            // textBox1
+            // nameE
             // 
-            this.textBox1.Location = new System.Drawing.Point(635, 109);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 20);
-            this.textBox1.TabIndex = 21;
+            this.nameE.Location = new System.Drawing.Point(635, 109);
+            this.nameE.Name = "nameE";
+            this.nameE.Size = new System.Drawing.Size(120, 20);
+            this.nameE.TabIndex = 21;
             // 
             // label2
             // 
@@ -156,54 +198,12 @@ namespace Lab5
             this.label1.TabIndex = 19;
             this.label1.Text = "id";
             // 
-            // numericUpDown1
+            // idE
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(635, 67);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 18;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.id,
-            this.name,
-            this.date_of_completion,
-            this.completed});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 11);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(443, 401);
-            this.dataGridView1.TabIndex = 34;
-            // 
-            // id
-            // 
-            this.id.HeaderText = "id";
-            this.id.Name = "id";
-            // 
-            // name
-            // 
-            this.name.HeaderText = "name";
-            this.name.Name = "name";
-            // 
-            // date_of_completion
-            // 
-            this.date_of_completion.HeaderText = "date_of_completion";
-            this.date_of_completion.Name = "date_of_completion";
-            // 
-            // completed
-            // 
-            this.completed.HeaderText = "completed";
-            this.completed.Name = "completed";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.Location = new System.Drawing.Point(635, 176);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(75, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "completed";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.idE.Location = new System.Drawing.Point(635, 67);
+            this.idE.Name = "idE";
+            this.idE.Size = new System.Drawing.Size(120, 20);
+            this.idE.TabIndex = 18;
             // 
             // EventForm
             // 
@@ -215,8 +215,8 @@ namespace Lab5
             this.Text = "EventForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.idE)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -224,7 +224,7 @@ namespace Lab5
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox completedE;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn name;
@@ -234,11 +234,11 @@ namespace Lab5
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateOfCompletion;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox nameE;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown idE;
     }
 }

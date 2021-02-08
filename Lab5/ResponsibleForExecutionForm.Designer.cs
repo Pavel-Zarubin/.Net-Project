@@ -31,43 +31,43 @@ namespace Lab5
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.fioRFE = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.positionRFE = new System.Windows.Forms.TextBox();
+            this.tvResponsibleForExecution = new System.Windows.Forms.DataGridView();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.subdivision_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.position = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.bDelete = new System.Windows.Forms.Button();
+            this.bEdit = new System.Windows.Forms.Button();
+            this.bNew = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.subdivision_nameRFE = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.idRFE = new System.Windows.Forms.NumericUpDown();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tvResponsibleForExecution)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.idRFE)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.fioRFE);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.positionRFE);
+            this.panel1.Controls.Add(this.tvResponsibleForExecution);
+            this.panel1.Controls.Add(this.bDelete);
+            this.panel1.Controls.Add(this.bEdit);
+            this.panel1.Controls.Add(this.bNew);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.subdivision_nameRFE);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.numericUpDown1);
+            this.panel1.Controls.Add(this.idRFE);
             this.panel1.Location = new System.Drawing.Point(-1, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(802, 452);
@@ -85,13 +85,13 @@ namespace Lab5
             this.label5.Text = "fio";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // textBox3
+            // fioRFE
             // 
-            this.textBox3.Location = new System.Drawing.Point(636, 186);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(120, 20);
-            this.textBox3.TabIndex = 63;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.fioRFE.Location = new System.Drawing.Point(636, 186);
+            this.fioRFE.Name = "fioRFE";
+            this.fioRFE.Size = new System.Drawing.Size(120, 20);
+            this.fioRFE.TabIndex = 63;
+            this.fioRFE.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label4
             // 
@@ -105,27 +105,27 @@ namespace Lab5
             this.label4.Text = "position";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
-            // textBox2
+            // positionRFE
             // 
-            this.textBox2.Location = new System.Drawing.Point(636, 150);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(120, 20);
-            this.textBox2.TabIndex = 61;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.positionRFE.Location = new System.Drawing.Point(636, 150);
+            this.positionRFE.Name = "positionRFE";
+            this.positionRFE.Size = new System.Drawing.Size(120, 20);
+            this.positionRFE.TabIndex = 61;
+            this.positionRFE.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // dataGridView1
+            // tvResponsibleForExecution
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.tvResponsibleForExecution.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tvResponsibleForExecution.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
             this.subdivision_name,
             this.position,
             this.fio});
-            this.dataGridView1.Location = new System.Drawing.Point(13, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(449, 401);
-            this.dataGridView1.TabIndex = 60;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.tvResponsibleForExecution.Location = new System.Drawing.Point(13, 12);
+            this.tvResponsibleForExecution.Name = "tvResponsibleForExecution";
+            this.tvResponsibleForExecution.Size = new System.Drawing.Size(449, 401);
+            this.tvResponsibleForExecution.TabIndex = 60;
+            this.tvResponsibleForExecution.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // id
             // 
@@ -147,35 +147,35 @@ namespace Lab5
             this.fio.HeaderText = "fio";
             this.fio.Name = "fio";
             // 
-            // button3
+            // bDelete
             // 
-            this.button3.Location = new System.Drawing.Point(704, 390);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 59;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.bDelete.Location = new System.Drawing.Point(704, 390);
+            this.bDelete.Name = "bDelete";
+            this.bDelete.Size = new System.Drawing.Size(75, 23);
+            this.bDelete.TabIndex = 59;
+            this.bDelete.Text = "Delete";
+            this.bDelete.UseVisualStyleBackColor = true;
+            this.bDelete.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // bEdit
             // 
-            this.button2.Location = new System.Drawing.Point(597, 390);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 58;
-            this.button2.Text = "Edit";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.bEdit.Location = new System.Drawing.Point(597, 390);
+            this.bEdit.Name = "bEdit";
+            this.bEdit.Size = new System.Drawing.Size(75, 23);
+            this.bEdit.TabIndex = 58;
+            this.bEdit.Text = "Edit";
+            this.bEdit.UseVisualStyleBackColor = true;
+            this.bEdit.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // bNew
             // 
-            this.button1.Location = new System.Drawing.Point(483, 390);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 57;
-            this.button1.Text = "New";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.bNew.Location = new System.Drawing.Point(483, 390);
+            this.bNew.Name = "bNew";
+            this.bNew.Size = new System.Drawing.Size(75, 23);
+            this.bNew.TabIndex = 57;
+            this.bNew.Text = "New";
+            this.bNew.UseVisualStyleBackColor = true;
+            this.bNew.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -189,13 +189,13 @@ namespace Lab5
             this.label3.Text = "subdivision_name";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // textBox1
+            // subdivision_nameRFE
             // 
-            this.textBox1.Location = new System.Drawing.Point(636, 110);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(120, 20);
-            this.textBox1.TabIndex = 55;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.subdivision_nameRFE.Location = new System.Drawing.Point(636, 110);
+            this.subdivision_nameRFE.Name = "subdivision_nameRFE";
+            this.subdivision_nameRFE.Size = new System.Drawing.Size(120, 20);
+            this.subdivision_nameRFE.TabIndex = 55;
+            this.subdivision_nameRFE.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -221,13 +221,13 @@ namespace Lab5
             this.label1.Text = "id";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // numericUpDown1
+            // idRFE
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(636, 68);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 52;
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            this.idRFE.Location = new System.Drawing.Point(636, 68);
+            this.idRFE.Name = "idRFE";
+            this.idRFE.Size = new System.Drawing.Size(120, 20);
+            this.idRFE.TabIndex = 52;
+            this.idRFE.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // ResponsibleForExecutionForm
             // 
@@ -239,8 +239,8 @@ namespace Lab5
             this.Text = "ResponsibleForExecutionForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tvResponsibleForExecution)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.idRFE)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -249,21 +249,21 @@ namespace Lab5
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox fioRFE;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox positionRFE;
+        private System.Windows.Forms.DataGridView tvResponsibleForExecution;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn subdivision_name;
         private System.Windows.Forms.DataGridViewTextBoxColumn position;
         private System.Windows.Forms.DataGridViewTextBoxColumn fio;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button bDelete;
+        private System.Windows.Forms.Button bEdit;
+        private System.Windows.Forms.Button bNew;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox subdivision_nameRFE;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown idRFE;
     }
 }

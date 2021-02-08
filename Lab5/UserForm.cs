@@ -86,5 +86,10 @@ namespace Lab5
         {
 
         }
+
+        private void UserForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
